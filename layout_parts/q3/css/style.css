@@ -16,6 +16,9 @@ th{
   font-size: 18px;
   line-height: 26px; 
 }
+tr:nth-child(even) {
+  background-color: #ECF1F2;
+}
 
 
 td{
@@ -28,20 +31,7 @@ table {
   width: 100%;
   border-collapse:  collapse;     /* セルの線を重ねる */
 }
-tr:nth-last-child(2) {
-  border-bottom:2px dashed black;
-} 
 
-.gray-table{
-  background-color: #ecf1f2;
-  border-bottom-style: dashed solid;
+.wTable > tbody > tr:last-child {
+  border-top: 2px dashed #000;
 }
-
-
-
-
-/* .gray-table{
-
-} */
-
-/* 回答はここに書いてね */

@@ -74,26 +74,10 @@
 
 .is-9{
   background-color: #2b69a3;
-  width: 100px;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
   position: fixed;
-  top: 0;/*基準を画面の左上に*/
-  left: 0;
-  margin: 10px;
+  top: 10px;/*基準を画面の左上に */
+  left: 10px;
 }
-/* 
-.q5__box.is-8:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #FFEFD3;
-  content: "";
-} */
 
 .q5__box.is-8:after {
   position: absolute;

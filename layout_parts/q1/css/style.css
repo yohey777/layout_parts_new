@@ -6,11 +6,9 @@
     padding: 20px;
     border: 10px solid #022336;
     background-color: #eaf4ff;
+    font-size:16px;
 }
 
-p{
-  font-size:16px;
-}
 
 .blue-box:first-child{
   margin-left: 0px;
@@ -23,7 +21,7 @@ p{
   background-color: #3274ae;
 }
 
-.gray-box{
+.q1{
     width: 900px;
     margin: 0 auto;
     padding: 20px;

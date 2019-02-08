@@ -4,17 +4,42 @@
 
 
 /* 問題1 */
-.q6-box{
+.q6--horizontal {
+  width: 640px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  font-size: 0;
+  text-align: center;
+  background-color: #ECF1F2;
+}
+
+.q6__box.is-textalign .q6_firstbox {
+  text-align: center;
+}
+
+.q6--horizontal .q6_text {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+
+.q6__box.is-textalign .q6_text {
   display: inline-block;
 }
 
+.q6--horizontal > .q6__box {
+  display: inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #fff;
+}
 
-.q6_text{
-  padding:10px 0;
-  background: #e6f2ff; 
-  width:90px;
+.q6__box.is-margin .q6_text {
+  margin: 0 auto;
   text-align: center;
-  margin:0 auto;
 }
 
 /* 問題2 */
@@ -23,7 +48,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-collapse: collapse; */
 }
 
 .q6_table{

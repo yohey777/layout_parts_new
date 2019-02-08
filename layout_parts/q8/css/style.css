@@ -399,3 +399,9 @@ select{
   content: '';
 }
 
+.q8__main__bottom__btn:active{
+    outline:none;
+    border-style:none;
+    background-color: #FFF;
+    color: #00BCD4;
+}

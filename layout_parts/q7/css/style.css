@@ -10,7 +10,7 @@
 
 .q7--float .q7__box {
   float: left;
-  margin-left: 45px;
+  margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
   width: 225px;
@@ -55,11 +55,14 @@
 
 .q7--inlineblock .q7__box{
   display:inline-block;
-  margin-left: 42px;
+  margin-left: 50px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
+/* .q7--inlineblock .q7__inner {
+  font-size: 0;
+} */
 
 .q7--inlineblock .q7__box:first-child{
   margin-left:0px;
@@ -103,12 +106,3 @@
   vertical-align: top;
 }
 
-}
-.q7--margin is-full is-stable q7__box__text{
-  width:300px;
-}
-
-
-/* .q7 .q7__box {
-  width: 225px;
-} */
