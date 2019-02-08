@@ -2,4 +2,46 @@
 
 /* 回答はここに書いてね */
 
+
+th,td { 
+    text-align: center; 
+    padding: 10px;
+    border: 1px solid #dedede;
+    vertical-align: middle;
+}
+
+th{
+  background-color: #2244aa;
+  color : white;
+  font-size: 18px;
+  line-height: 26px; 
+}
+
+
+td{
+  line-height: 22px;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse:  collapse;     /* セルの線を重ねる */
+}
+tr:nth-last-child(2) {
+  border-bottom:2px dashed black;
+} 
+
+.gray-table{
+  background-color: #ecf1f2;
+  border-bottom-style: dashed solid;
+}
+
+
+
+
+/* .gray-table{
+
+} */
+
 /* 回答はここに書いてね */

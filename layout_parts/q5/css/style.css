@@ -1,5 +1,106 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q5{
+  background-color:  #ECF1F2;
+  width:500px;
+  height:500px;
+  margin:0 auto;
+  position:relative;
+}
 /* 回答はここに書いてね */
+.q5__box{
+  position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.is-1{
+  background-color: #ffefd3;
+  z-index:1;
+  left:200px;
+  top:40px;
+}
+.is-2{
+  background-color: #7084de;
+  z-index:2;
+  left:280px;
+  top:120px;
+}
+
+.is-3{
+  background-color: #d0ecea;
+  z-index:3;
+  left:360px;
+  top:200px;
+}
+.is-4{
+  background-color: #8b7a5e;
+  z-index:4;
+  left:280px;
+  top:280px;
+}
+.is-5{
+  background-color: #9fd6d2;
+  z-index:5;
+  left:200px;
+  top:360px;
+}
+.is-6{
+  background-color: #fffee4;
+  z-index:6;
+  left:120px;
+  top:280px;
+}
+.is-7{
+  background-color: #deae70;
+  z-index:7;
+  left:40px;
+  top:200px;
+}
+.is-8{
+  background-color: #de70cf;
+  z-index:8;
+  left:120px;
+  top:120px;
+}
+
+.box{
+  position:relative;
+}
+
+.is-9{
+  background-color: #2b69a3;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  position: fixed;
+  top: 0;/*基準を画面の左上に*/
+  left: 0;
+  margin: 10px;
+}
+/* 
+.q5__box.is-8:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFEFD3;
+  content: "";
+} */
+
+.q5__box.is-8:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  content: "";
+}

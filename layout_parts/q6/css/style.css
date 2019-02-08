@@ -2,4 +2,53 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+
+/* 問題1 */
+.q6-box{
+  display: inline-block;
+}
+
+
+.q6_text{
+  padding:10px 0;
+  background: #e6f2ff; 
+  width:90px;
+  text-align: center;
+  margin:0 auto;
+}
+
+/* 問題2 */
+
+.q6--around {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-collapse: collapse; */
+}
+
+.q6_table{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+/* 問題3 */
+.q6--position .q6__box {
+  position: relative;
+}
+
+.q6__box.is-stable .q6__box__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.q6__box.is-flexible .q6__box__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
