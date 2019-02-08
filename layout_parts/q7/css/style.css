@@ -53,6 +53,8 @@
   font-size: 16px;
 }
 
+/* inliblockここから */
+
 .q7--inlineblock .q7__box{
   display:inline-block;
   margin-left: 50px;
@@ -60,13 +62,15 @@
   vertical-align: middle;
   box-sizing: border-box;
 }
-/* .q7--inlineblock .q7__inner {
+.q7--inlineblock .q7__inner {
   font-size: 0;
-} */
+}
 
 .q7--inlineblock .q7__box:first-child{
   margin-left:0px;
 }
+
+/* inliblockここまで */
 
 .q, .q7--flex .q7__inner{
   display: flex;
