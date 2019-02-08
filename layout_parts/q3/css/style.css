@@ -3,25 +3,28 @@
 /* 回答はここに書いてね */
 
 
-th,td { 
+/* クラスを指定 */
+/* .wTable */
+
+.wTable th,td { 
     text-align: center; 
     padding: 10px;
     border: 1px solid #dedede;
     vertical-align: middle;
 }
 
-th{
+.wTable th{
   background-color: #2244aa;
   color : white;
   font-size: 18px;
   line-height: 26px; 
 }
-tr:nth-child(even) {
+.wTable tr:nth-child(even) {
   background-color: #ECF1F2;
 }
 
 
-td{
+.wTable td{
   line-height: 22px;
   text-align: center;
 }

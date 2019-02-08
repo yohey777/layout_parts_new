@@ -400,8 +400,13 @@ select{
 }
 
 .q8__main__bottom__btn:active{
-    outline:none;
-    border-style:none;
+    /* outline:none;
+    border:none; */
     background-color: #FFF;
     color: #00BCD4;
+}
+
+.q8__input--init {
+  border: none;
+  outline: none;
 }

@@ -15,13 +15,15 @@
   word-break: break-all;
 }
 
-.image1{
+/* 画像の状態 */
+
+.image-left{
   float:left;
   margin-right:20px;
   margin-bottom:10px;
 }
 
-.image2{
+.image-right{
   float: right;
   margin-left:20px;
   margin-bottom:10px;

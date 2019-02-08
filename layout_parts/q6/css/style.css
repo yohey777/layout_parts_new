@@ -44,13 +44,29 @@
 
 /* 問題2 */
 
-.q6--around {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.q6--around.is-table .q6__box {
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
+}
+.q6--around.is-table {
+  display: table;
 }
 
 .q6_table{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q6--around.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6--around.is-table .q6_table {
+  display: inline-block;
   padding: 10px;
   background-color: #FFF;
 }

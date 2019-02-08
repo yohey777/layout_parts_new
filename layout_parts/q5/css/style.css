@@ -12,6 +12,7 @@
 .q5__box{
   position: absolute;
   width: 100px;
+  height:100px;
   font-weight: bold;
   font-size: 30px;
   line-height: 100px;
